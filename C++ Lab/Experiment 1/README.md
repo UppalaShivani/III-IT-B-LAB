@@ -5,3 +5,6 @@
 1.
 2.
 3.
+
+output obtained
+![output](central limit theorem.png)
