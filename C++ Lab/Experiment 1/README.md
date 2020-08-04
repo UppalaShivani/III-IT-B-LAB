@@ -7,4 +7,4 @@
 3.
 
 # output obtained
-![output](central limit theorem.png)
+![output](centrallimittheorem.png)
