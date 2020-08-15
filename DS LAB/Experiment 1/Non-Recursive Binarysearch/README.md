@@ -45,3 +45,29 @@ Initially,
   Here the condition satisfies and return the position as mid value                                   
   Output of following case : element 14 found at 4 position 
   ![Output_for_14](nrbs_14.png)
+## Case-3 : keyelement = 99                                                                           
+Initially,                                                                                           
+### Iteration-1:                                                                                   
+  start index(i) =0 , end index(n) = 9 ,                                                     
+  middle index(mid) = (i + n) / 2 = 4                                                                
+  arr[4] = 14                                                                                         
+  element > arr[4]                                                                                   
+  So, the start index becomes mid + 1                                                                 
+### Iteration-2 :
+  i = mid + 1 = 5                                                                                     
+  and mid = (5 + 9)/2 = 7                                                                             
+  arr[7] = 30                                                                                         
+  element > arr[7]                                                                                   
+### Iteration-3 :
+  i = mid + 1 = 8                                                                                     
+  mid = 8                                                                                             
+  arr[8] = 66                                                                                         
+  element > arr[1]
+### Iteration-4 :
+  i = mid + 1 = 9                                                                                     
+  mid = 9                                                                                             
+  arr[9] = 99                                                                                         
+  element = arr[9]                                                                                   
+  Here the condition satisfies and return position as mid value                                       
+  Output of following case : element 99 found at 9 position
+  ![Output_for_99](nrbs_99.png)
