@@ -33,5 +33,15 @@ Initially,
   arr[1] = 6                                                                                         
   element == arr[1]                                                                                   
   Here the condition satisfies and returns final mid value i.e 1                                     
-  Output of following case is : element found at 1 position                                           
+  Output of following case is : element 6 found at 1 position                                         
   ![Output_for_6](nrbs_6.png)
+3. Case-1 : keyelement = 14                                                                           
+Initially,                                                                                           
+### Iteration-1:                                                                                   
+  start index(i) =0 , end index(n) = 9 ,                                                     
+  middle index(mid) = (i + n) / 2 = 4                                                                
+  arr[4] = 14                                                                                         
+  element == arr[4]                                                                                  
+  Here the condition satisfies and return the position as mid value                                   
+  Output of following case : element 14 found at 4 position 
+  ![Output_for_14](nrbs_14.png)
