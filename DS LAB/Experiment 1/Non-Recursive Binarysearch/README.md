@@ -1,8 +1,8 @@
-# Aim :                                                                                                 
+# Aim :                                                                                      
 To write a program using non-recursive function to perform Binary search operations for a Key element in the given list of integers. 
 # Description :
-Binary Search: Search a sorted array by repeatedly dividing the search interval in half.                 
-Binary Search is applied on the sorted array or list of large size. It's time complexity of O(log n) makes it very fast as compared to other sorting algorithms.                                             
+Binary Search: Search a sorted array by repeatedly dividing the search interval in half.     
+Binary Search is applied on the sorted array or list of large size. It's time complexity of O(log n) makes it very fast as compared to other sorting algorithms.                         
 The only limitation is that the array or list of elements must be sorted for the binary search algorithm to work on it.                           
 Following are the steps of implementation that we will be following:                                     
 1. Start with the middle element:                                                                       
