@@ -12,7 +12,7 @@ Following are the steps of implementation that we will be following:
   -> If the target value is less than the number in the middle index, then pick the elements to the left of the middle index, and start with Step 1.          
 2. When a match is found, return the index of the element matched.
 3. If no match is found, then return -1                            
-# Step-by-step peocedure : 
+# Step-by-step procedure : 
 1. List of integers : arr[] = {3,6,8,10,14,15,20,30,66,99}                                           
 ## Case-1 : keyelement = 6                                                                           
 Initially,                                                                                           
