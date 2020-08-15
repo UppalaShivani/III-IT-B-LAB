@@ -29,7 +29,7 @@ then start index = 7+1 = 8
 arr[8] = 66                                                                                           
 keyelement == arr[8]                                                                                 
 Finally the condition satisfies.And position is the final start index in the program ,which is 8.     
-Output of following case is : element 66 found at position 8.                                         
+### Output of following case is : element 66 found at position 8.                                     
 ![Output_for_66](rls_66.png)
 
 ## Case-2 : Keyelement = 0                                                                           
@@ -56,5 +56,5 @@ keyelement != arr[9]
 start index = 9 + 1 = 10                                                                             
 Here start index > end index .Then it comes out of the function which indicates that the given key element is not present in the given array.                                                           
 this is the worst-case with time complexity O(n)                                                     
-Output of following case is : element not found.                                                     
+### Output of following case is : element not found.                                                   
 ![Output_for_0](rls_0.png)
