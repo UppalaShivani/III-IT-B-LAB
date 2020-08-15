@@ -14,7 +14,7 @@ Following are the steps of implementation that we will be following:
 3. If no match is found, then return -1                            
 # Step-by-step peocedure : 
 1. List of integers : arr[] = {3,6,8,10,14,15,20,30,66,99}                                           
-2. Case-1 : keyelement = 6                                                                           
+## Case-1 : keyelement = 6                                                                           
 Initially,                                                                                           
 ### Iteration-1:                                                                                   
   start index(i) =0 , end index(n) = 9 ,                                                     
@@ -35,7 +35,7 @@ Initially,
   Here the condition satisfies and returns final mid value i.e 1                                     
   Output of following case is : element 6 found at 1 position                                         
   ![Output_for_6](nrbs_6.png)
-3. Case-1 : keyelement = 14                                                                           
+## Case-2 : keyelement = 14                                                                           
 Initially,                                                                                           
 ### Iteration-1:                                                                                   
   start index(i) =0 , end index(n) = 9 ,                                                     
