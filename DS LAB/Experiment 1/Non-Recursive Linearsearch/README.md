@@ -18,8 +18,10 @@ Iteration-2: arr[1] = 6                                                         
 . 
 ...                                                                                                                            
 Iteration-8 : arr[7] = 99                                                                                                                       Keyelement != arr[7]                                                                                                    It moves to next iteration                                                                                                         
-Iteration-9 : arr[8] = 66                                                                                                                      Keyelement == arr[8]                                                                                                    In Iteration-9 the condition satisfies. And the element's index is 8                                                     
-Position is the index of given element.                                                                                          The program's output is : element 66 found at position 8                                                                         
+Iteration-9 : arr[8] = 66                                                                                                                      Keyelement == arr[8]                                                                                                    
+In Iteration-9 the condition satisfies. And the element's index is 8                                                     
+Position is the index of given element.                                                                                          
+The program's output is : element 66 found at position 8                                                                         
 ![Output_for_66](nrls_66.png)
                                                                                                                                                                                                                                                                   
 4. Case-2 : Key element : 0                                                                                                       
