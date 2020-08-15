@@ -31,7 +31,7 @@ mid = 1
 arr[1] = 6                                                                                           
 element = arr[1]                                                                                   
 Here the condition satisfies and returns final mid value i.e 1                                     
-Output of following case is : element 6 found at 1 position                                         
+### Output of following case is : element 6 found at 1 position                                      
 ![Output_for_6](rbs_6.png)
 ## Case-2 : keyelement = 14                                                                           
 Initially,                                                                                           
@@ -41,7 +41,7 @@ Initially,
   arr[4] = 14                                                                                         
   element == arr[4]                                                                                  
   Here the condition satisfies and return the position as mid value                                   
-  Output of following case : element 14 found at 4 position 
+  ### Output of following case : element 14 found at 4 position 
   ![Output_for_14](rbs_14.png)
 ## Case-3 : keyelement = 99     
 Initially , start index(i)=0, end index(n) = 9                                                       
@@ -66,5 +66,5 @@ mid = 9
 arr[9] = 99                                                                                         
 element = arr[9]                                                                                   
 Here the condition satisfies and return position as mid value                                       
-Output of following case : element 99 found at 9 position
+### Output of following case : element 99 found at 9 position
 ![Output_for_99](rbs_99.png)
