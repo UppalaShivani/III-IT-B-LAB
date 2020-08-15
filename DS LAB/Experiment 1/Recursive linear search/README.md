@@ -10,9 +10,9 @@ The idea is to compare x with first element in arr[]. If element is found at fir
 The time required to search an element using the algorithm depends on the size of the list. In the best case, it's present at the beginning of the list, in the worst-case, element is present at the end. Its time complexity is O(n).
 # Step-by-step procedure :
 1. List of integers : arr[] = {10,6,8,15,20,3,14,99,66,30}                                                End index = 9                                                                                       
-2. Case-1 : Keyelement = 66                                                                           
-3. In this program starting index must be greater than end index                                  
-4. Initially                                                                                         
+## Case-1 : Keyelement = 66                                                                           
+2. In this program starting index must be greater than end index                                  
+3. Initially                                                                                         
 start index = 0                                                                                     
 arr[0] =10                                                                                         
 keyelement != arr[10]                                                                               
@@ -32,14 +32,13 @@ Finally the condition satisfies.And position is the final start index in the pro
 Output of following case is : element 66 found at position 8.                                         
 ![Output_for_66](rls_66.png)
 
-
-5. Case-2 : Keyelement = 0                                                                           
-6. In this program starting index must be greater or equal to than end index                         
-7. Initially                                                                                             
+## Case-2 : Keyelement = 0                                                                           
+4. In this program starting index must be greater or equal to than end index                         
+5. Initially                                                                                           
 start index = 0                                                                                     
 arr[0] =10                                                                                         
 keyelement != arr[10]                                                                               
-Here the condition not satisfied ,so it recur for reamining array by considering start index = 0+1                                                                                                    
+Here the condition not satisfied ,so it recur for reamining array by considering start index = 0+1     
 start index = 1 ,                                                                                     
 arr[1] = 6                                                                                          
 keyelement != arr[1]                                                                               
