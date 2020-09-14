@@ -24,4 +24,4 @@ The sub-sorted array : 10,20,30,40
 Then i = 4 where i>n;                                                                                                                                                               
 So it comes out of loop.                                                                                                                                                           
 ### Output of following is : Sorted array = 10, 20, 30, 40
-![Output](Itsertion_sorting.png)
+![Output](Inseartion_sorting.png)
