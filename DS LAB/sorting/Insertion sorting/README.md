@@ -15,7 +15,7 @@ Iteration 1 : for i = 1 (second element of the array) to 3 (last element of the 
 i = 1. Since 10 is smaller than 20, move 20 and insert 10 before 20                                                                                                                 
 The sub-sorted array : 10,20,40,30
 
-Iteration-2 : i = 2. 20 will remain at its position as all elements in A[0..I-1] are smaller than 20
+Iteration-2 : i = 2. 20 will remain at its position as all elements in A[0..I-1] are smaller than 20                                                                               
 The sub-sorted array : 10,20,40,30
 
 Iteration-3: i = 3. 30 is smaller than 40, move 40 and insert 30 before 40 and 30 is greater than 20 so it stays in position 2.                                                     
