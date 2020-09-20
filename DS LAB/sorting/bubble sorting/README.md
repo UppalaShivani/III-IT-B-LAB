@@ -56,6 +56,11 @@ Then 2, -3 are compared, as 2 > -3, so swaping takes place and array becomes as 
 Then 2, 5 are compared , as 5 > 2 so no swaping takes place.                                           
 Finally 5 and 6 are compared, as 6 > 5 so no swaping takes place.
 #### Iteration 4 :
+-1 is compared with -3, -1 is greater then -3 so swaping takes place and array becomes as [-3,-1,2,5,6]   
+Then -1,2 are compared, as -1 < 2 so no swaping takes place.                                                                                                                     
+Then 2, 5 are compared, as 5 > 2, so no swaping takes place.                                                                                                                     
+Finally 5 and 6 are compared, as 6 > 5 so no swaping takes place.
+#### Iteration 5 :
 Here the array is in correct order. So it comes out of loop                                             
 And finnal array is [-1,-3,2,5,6]
 ![Negetive elements](bubble_sort_negetive_elements.png)
