@@ -62,5 +62,5 @@ Then 2, 5 are compared, as 5 > 2, so no swaping takes place.
 Finally 5 and 6 are compared, as 6 > 5 so no swaping takes place.
 #### Iteration 5 :
 Here the array is in correct order. So it comes out of loop                                             
-And finnal array is [-1,-3,2,5,6]
+And finnal array is [-3,-1,2,5,6]
 ![Negetive elements](bubble_sort_negetive_elements.png)
