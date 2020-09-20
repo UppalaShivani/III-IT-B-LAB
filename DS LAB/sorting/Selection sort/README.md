@@ -48,3 +48,19 @@ Array = [1,3,3,5,5].
 Now the given array is sorted array, so it comes out of loop 
 #### Output of following case is [1,3,3,5,5]
 ![Repeting elements](selection_sort_repeating_elements.png)
+### Case-3:
+Array = [2,5,-1,6,-3]
+Firstly min = 2, we search the whole array and finds -3 as lowest value.                               
+so we replace 2 with -3 .After one iteration 1, which happens to be the minimum value in the list, appears in the first position of the sorted list.                                                       
+Array =[-3,5,-1,6,2].                                                                                   
+Then we consider 2nd position i.e 5 ,and we find that -1 is 2nd lowest value so we swap these values.   
+Array = [-3,-1,5,6,2].                                                                                 
+Then we consider 3rd position i.e 5 ,and we find that 2 is 3ed lowest value so we swap these values.   
+Array = [-3,-1,2,6,5].                                                                                 
+Then we consider 4rt position i.e 5 ,and we find that 5 is 4rt lowest value so no swaping takes place. 
+Array = [-3,-1,2,5,6].                                                                                 
+Then we consider 5th position i.e 6 ,and we find that 6 is 5th lowest value so no swaping takes place. 
+Array = [-3,-1,2,5,6].
+Now the given array is sorted array, so it comes out of loop 
+#### Output of following case is [-3,-1,2,5,6]
+![Repeting elements](selection_sort_negetive_elements.png)
