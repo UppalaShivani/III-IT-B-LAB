@@ -43,8 +43,6 @@ Then we consider 3rd position i.e 5 ,and we find that 3 is 3ed lowest value so w
 Array = [1,3,3,5,5].                                                                                   
 Then we consider 4rt position i.e 5 ,and we find that 5 is 4rt lowest value so no swaping takes place. 
 Array = [1,3,3,5,5].                                                                                   
-Then we consider 5th position i.e 5 ,and we find that 5 is 5th lowest value so no swaping takes place. 
-Array = [1,3,3,5,5].
 Now the given array is sorted array, so it comes out of loop 
 #### Output of following case is [1,3,3,5,5]
 ![Repeting elements](selection_sort_repeating_elements.png)
@@ -59,8 +57,6 @@ Then we consider 3rd position i.e 5 ,and we find that 2 is 3ed lowest value so w
 Array = [-3,-1,2,6,5].                                                                                 
 Then we consider 4rt position i.e 5 ,and we find that 5 is 4rt lowest value so no swaping takes place. 
 Array = [-3,-1,2,5,6].                                                                                 
-Then we consider 5th position i.e 6 ,and we find that 6 is 5th lowest value so no swaping takes place. 
-Array = [-3,-1,2,5,6].
 Now the given array is sorted array, so it comes out of loop 
 #### Output of following case is [-3,-1,2,5,6]
 ![Repeting elements](selection_sort_negetive_elements.png)
