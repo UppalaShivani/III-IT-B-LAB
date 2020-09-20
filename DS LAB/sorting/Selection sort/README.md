@@ -47,4 +47,4 @@ Then we consider 5th position i.e 5 ,and we find that 5 is 5th lowest value so n
 Array = [1,3,3,5,5].
 Now the given array is sorted array, so it comes out of loop 
 #### Output of following case is [1,3,3,5,5]
-![Repeting elements](selection_sort_reprating_elements.png)
+![Repeting elements](selection_sort_repeating_elements.png)
