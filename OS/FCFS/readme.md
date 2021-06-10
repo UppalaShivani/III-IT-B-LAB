@@ -14,4 +14,4 @@
 7: Stop the process
 .
 ## OUTPUT : 
-![Output](Screenshot(54).png)
+![Output](fcfs_op.png)
