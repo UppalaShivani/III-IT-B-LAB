@@ -1,0 +1,89 @@
+//Priority Scheduling
+
+/*Algorithm
+
+1- First input the processes with their burst time 
+   and priority.
+2- Sort the processes, burst time and priority
+   according to the priority.
+3- Now simply apply FCFS algorithm.
+4-  Find waiting time for all other processes i.e. for
+     process i -> 
+       wt[i] = bt[i-1] + wt[i-1] .
+5-  Find turnaround time = waiting_time + burst_time 
+    for all processes.
+6-  Find average waiting time = 
+                 total_waiting_time / no_of_processes.
+7-  Similarly, find average turnaround time = 
+                 total_turn_around_time / no_of_processes.
+*/
+
+
+//PROGRAM
+
+#include<stdio.h>
+int main()
+{
+    int it[20],p[20],wt[20],ft[20],pr[20],i,j,n,total=0,pos,temp,avg_wt=0,avg_fin=0;
+    printf("Enter Total Number of Process:");
+    scanf("%d",&n);
+ 
+    printf("\nEnter burst Time and Priority\n");
+    for(i=0;i<n;i++)
+    {
+        printf("\nP[%d]\n",i+1);
+        printf("burst Time:");
+        scanf("%d",&it[i]);
+        printf("Priority:");
+        scanf("%d",&pr[i]);
+        p[i]=i+1;
+    }
+    
+    for(i=0;i<n;i++)
+    {
+        pos=i;
+        for(j=i+1;j<n;j++)
+        {
+            if(pr[j]<pr[pos])
+                pos=j;
+        }
+ 
+        temp=pr[i];
+        pr[i]=pr[pos];
+        pr[pos]=temp;
+ 
+        temp=it[i];
+        it[i]=it[pos];
+        it[pos]=temp;
+ 
+        temp=p[i];
+        p[i]=p[pos];
+        p[pos]=temp;
+    }
+ 
+    wt[0]=0;
+    for(i=1;i<n;i++)
+    {
+        wt[i]=0;
+        for(j=0;j<i;j++)
+            wt[i]+=it[j];
+ 
+        total+=wt[i];
+    }
+ 
+    avg_wt=total/n;
+    total=0;
+ 
+    printf("\nProcess\t    burst Time    \tWaiting Time\tTurnaround Time");
+    for(i=0;i<n;i++)
+    {
+        ft[i]=it[i]+wt[i];
+        total+=ft[i];
+        printf("\nP[%d]\t\t  %d\t\t    %d\t\t\t%d",p[i],it[i],wt[i],ft[i]);
+    }
+    
+    avg_fin=total/n;
+    printf("\n\nAverage Waiting Time=%d",avg_wt);
+    printf("\nAverage finishing Time=%d\n",avg_fin);
+	return 0;
+}
